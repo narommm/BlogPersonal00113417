@@ -1,12 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Visión Perversa</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <nav id="topbar">
+          <a href="#" class="hide-desktop options">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-times hide-mobile"></i>
+          </a>
+          <ul class="show-desktop submenu-publicaciones menu" id="menu">
+            <li><a href="#">Inicio</a></li>
+            <li>
+              <a id="publicaciones" href="#"
+                >Publicaciones
+                <ul id="submenu-publicaciones">
+                  <li><a id="art1" href="#articulo1">Lunes</a></li>
+                  <li><a id="art2" href="#articulo2">Martes</a></li>
+                  <li><a id="art3" href="#articulo3">Miercoles</a></li>
+                  <li><a id="art4" href="#articulo4">Jueves</a></li>
+                  <li><a id="art5" href="#articulo5">Viernes</a></li>
+                  <li>
+                    <a id="text" href="#text-principal">Articulo Principal</a>
+                  </li>
+                </ul>
+              </a>
+            </li>
+            <li><a href="#">Acerca de</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+
+    <section class="big-hero">
+      <div class="container">
+        <h2>MISIÓN</h2>
+        <p>Perversa</p>
+      </div>
+    </section>
+
+    <section class="green-area">
+      <div class="container post">
+        <h2>Publicaciones</h2>
+        <div id="text-principal" class="intro-text">
+          <img src="../pictures/alerav.png" alt="">
+          <p>
+            Un día cualquiera en clase, se encontraba un catedrático
+            extremadamente preocupado interrumpio nuestra clase para mostrarnos
+            un mensaje sumamente preocupante, los sistemas informáticos de la
+            UCA iban hacer dañados por personas aparentemente desconocidas, las
+            cuales debería de encontrarse su identidad.
+          </p>
+          <br />
+          <p>
+            Para ello es indispensable resolver ciertos acertijos en un sistema
+            Gestor de Base de Datos, este mismo nos proporciona la información,
+            debido que el perpetuador no es tan listo.
+          </p>
+          <br />
+          <p>
+            Pero todo debe mantenerse bajo discreción, no debemos exponernos
+          </p>
+        </div>
+        <div class="articulos">
+          <div class="articulo1 not-visible" id="articulo1">
+            <img src="../pictures/dia4.jpeg" alt="cooke banner" />
+            <h3>LUNES</h3>
+            <p>
+              El día en que todo empezó, Ale Rav mando un mensaje mientras
+              estabamos en clase, para poderlo detener necesitaba tomar acción
+              por lo que primero debería resolver un acertijo utilizando
+              funciones en postgresq esta debería de verificar los DUI de los
+              cuales se extrae cada digito por separado guardando su valor en
+              una variable, luego aplicando el algoritmo de verificación
+              multiplicando cada digito por un número en especifíco, guardando
+              cada resultado en una variable, la
+            </p>
+          </div>
+
+          <div class="articulo2 not-visible" id="articulo2">
+            <img src="images/article_banners/news.jpg" alt="new banner" />
+            <h3>MARTES</h3>
+            <p>
+              Luego de la terrible experiencia, se debe de comprobar que los
+              representantes por cada área de trabajo, no puedan ser cambiados
+              sin antes dejar un representante del área correspondiente, para
+              ello es necesario el uso de triggers, el que compruebe mediante de
+              una validación que haya referencia al miembro representante si se
+              quiere ejecutar un cambio con este miembro sin antes colocar un
+              nuevo miembro muestra una alerta, de lo contrario si la validacion
+              lo permite puede ejecutar los comandos sin ningún problema.
+            </p>
+          </div>
+
+          <div class="articulo3 not-visible" id="articulo3">
+            <img src="images/article_banners/teach.jpg" alt="teach" />
+            <h3>MIERCOLES</h3>
+            <p>
+              Kurt, necesita verificar las personas confiables por lo que esta
+              vez es necesario que validen quienes son parte de un área de
+              trabajo y solamente una, para ello se comprueba el identificar del
+              miembro utilizando una transacción para insertar los datos en dos
+              tablas distintas, recorriendo cada fila verificando el valor del
+              area a la que pertenece junto con la tabla correspondiente a la
+              que el miembro pertenece.
+            </p>
+          </div>
+
+          <div class="articulo4 not-visible" id="articulo4">
+            <img src="images/article_banners/teach.jpg" alt="teach" />
+            <h3>JUEVES</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ducimus officia asperiores corrupti vel velit eveniet, voluptas quidem sit, aut dolorum voluptate fuga impedit hic pariatur. A aut earum nobis?</p>
+          </div>
+
+          <div class="articulo5 not-visible" id="articulo5">
+            <img src="images/article_banners/teach.jpg" alt="teach" />
+            <h3>VIERNES</h3>
+            <p>
+              Día que se encontro la verdad, pero se perdió mucho ya que Kurt no está más con nosotros, 
+              logramos descubrir la identidad de Ale Rav
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p>Copyright 2019 María Lourdes. All Rights Reserved</p>
+    </footer>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css" />
+  </body>
 </html>
