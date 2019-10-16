@@ -26,11 +26,10 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  padding-top: 1em;
+  padding-top: 0;
   padding-inline-start: 3em;
   padding-inline-end: 1em;
   align-items: flex-end;
- 
 }
 
 #submenu-publicaciones{
