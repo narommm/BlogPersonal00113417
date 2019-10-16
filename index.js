@@ -10,7 +10,8 @@ var martesA = document.getElementById("articulo2");
 var miercolesA = document.getElementById("articulo3");
 var juevesA = document.getElementById("articulo4");
 var viernesA = document.getElementById("articulo5");
-
+var articulo = document.getElementById("text");
+var text = document.getElementById("text-principal");
 publicaciones.addEventListener("click", mostrar); 
 
 
@@ -23,13 +24,25 @@ function mostrar(){
   }
 }
 
+articulo.addEventListener("click", ()=>{
+  if(text.style.display==='block'){
+    return true;
+  }else{
+    lunesA.style.display='none';
+    martesA.style.display='none';
+    miercolesA.style.display='none';
+    juevesA.style.display='none';
+    viernesA.style.display='none';
+  }
+  text.style.display='block';
+});
 
 lunes.addEventListener("click", ()=> {
 
   if(lunesA.style.display==='block'){
     return true;
   }else{
-    document.getElementById("text-principal").style.display='none';
+    text.style.display='none';
     martesA.style.display='none';
     miercolesA.style.display='none';
     juevesA.style.display='none';
@@ -42,7 +55,7 @@ martes.addEventListener("click", ()=> {
   if(martesA.style.display==='block'){
     return true;
   }else{
-    document.getElementById("text-principal").style.display='none';
+   text.style.display='none';
     lunesA.style.display='none';
     miercolesA.style.display='none';
     juevesA.style.display='none';
@@ -55,6 +68,7 @@ miercoles.addEventListener("click", ()=> {
   if(miercolesA.style.display==='block'){
     return true;
   }else{
+    text.style.display='none';
     lunesA.style.display='none';
     martesA.style.display='none';
     juevesA.style.display='none';
@@ -67,6 +81,7 @@ jueves.addEventListener("click", ()=> {
   if(juevesA.style.display==='block'){
     return true;
   }else{
+    text.style.display='none';
     martesA.style.display='none';
     miercolesA.style.display='none';
     lunesA.style.display='none';
@@ -79,6 +94,7 @@ viernes.addEventListener("click", ()=> {
   if(viernesA.style.display==='block'){
     return true;
   }else{
+    text.style.display='none';
     martesA.style.display='none';
     miercolesA.style.display='none';
     juevesA.style.display='none';

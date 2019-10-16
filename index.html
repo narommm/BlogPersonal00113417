@@ -25,9 +25,7 @@
                   <li><a id="art3" href="#articulo3">Miercoles</a></li>
                   <li><a id="art4" href="#articulo4">Jueves</a></li>
                   <li><a id="art5" href="#articulo5">Viernes</a></li>
-                  <li>
-                    <a id="text" href="#text-principal">Articulo Principal</a>
-                  </li>
+                  <li><a id="text" href="#text-principal">Articulo Principal</a></li>
                 </ul>
               </a>
             </li>
@@ -80,7 +78,7 @@
               cuales se extrae cada digito por separado guardando su valor en
               una variable, luego aplicando el algoritmo de verificación
               multiplicando cada digito por un número en especifíco, guardando
-              cada resultado en una variable, la
+              cada resultado en una variable, comprobandola si el DUI de la persona es válido.
             </p>
           </div>
 
@@ -105,18 +103,27 @@
             <p>
               Kurt, necesita verificar las personas confiables por lo que esta
               vez es necesario que validen quienes son parte de un área de
-              trabajo y solamente una, para ello se comprueba el identificar del
+              trabajo y solamente una, para ello se comprueba el identificador del
               miembro utilizando una transacción para insertar los datos en dos
               tablas distintas, recorriendo cada fila verificando el valor del
               area a la que pertenece junto con la tabla correspondiente a la
-              que el miembro pertenece.
+              que el miembro pertenece. Esto mediante un if que compruebe que este haciendo una inserción de los 
+              datos, para luego validar dentro de la tabla.
             </p>
           </div>
 
           <div class="articulo4 not-visible" id="articulo4">
             <img src="../pictures/dia4.jpeg" alt="teach" />
             <h3>JUEVES</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ducimus officia asperiores corrupti vel velit eveniet, voluptas quidem sit, aut dolorum voluptate fuga impedit hic pariatur. A aut earum nobis?</p>
+            <p>Ya casi descubrimos la identidad de Ale Rav, pero antes necesitamos realizar un par de pasos,
+              es indispensable que los sub-proyectos pertenezcan a la tabla proyecto, y dentro de ella se 
+              encuentren los codigos de las mismas, para ello se valida el codigo_proyecto de la tabla a la cual 
+              se esta haciendo referencia y comprobar si el codigo de proyecto solo se encuentra solamente en una 
+              de las tablas para los sub-proyectos, de la misma manera para poder eliminar los codigos, primero en las
+              tablas de sub-proyectos y luego en proyectos, o si se quiere actualizar de la misma manera eliminar 
+            la referencia de la tabla sub-proyecto en la que se encuentra y luego hacer la insersión a la tabla
+            de sub-proyectos que se desea.
+            </p>
           </div>
 
           <div class="articulo5 not-visible" id="articulo5">
@@ -124,7 +131,7 @@
             <h3>VIERNES</h3>
             <p>
               Día que se encontro la verdad, pero se perdió mucho ya que Kurt no está más con nosotros, 
-              logramos descubrir la identidad de Ale Rav
+              logramos descubrir la identidad de Ale Rav!!
             </p>
           </div>
         </div>
